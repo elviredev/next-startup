@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[youtube](https://www.youtube.com/watch?v=Zq5fmkH0T78&t=3723s) <br>
+1:09:22
 
-## Getting Started
+🤖 Introduction
 
-First, run the development server:
+<hr>
+Une plateforme Next.js 15 où les entrepreneurs peuvent soumettre leurs idées de startups à des concours de pitchs virtuels, consulter d'autres pitchs et gagner en visibilité grâce à un design épuré et minimaliste pour une expérience utilisateur fluide.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br>
+⚙️ Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<hr>
+- React 19 <br>
+- Next.js 15 <br>
+- NextAuth <br>
+- Sanity <br>
+- TailwindCSS <br>
+- ShadCN <br>
+- TypeScript <br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<br>
+🔋 Fonctionnalités
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<hr>
+👉 API de contenu en direct : Affichez les dernières idées de startups de manière dynamique sur la page d’accueil grâce à l’API de contenu de Sanity.
 
-## Learn More
+👉 Authentification GitHub : Permet aux utilisateurs de se connecter facilement via leur compte GitHub.
 
-To learn more about Next.js, take a look at the following resources:
+👉 Soumission de pitch : Les utilisateurs peuvent soumettre des idées de startups, y compris le titre, la description, la catégorie et les liens multimédias (image ou vidéo).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 Afficher les pitchs : Parcourez les idées soumises avec des options de filtrage par catégorie.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👉 Page de détails du pitch : Cliquez sur un pitch pour afficher ses détails, avec les éléments multimédias et la description.
 
-## Deploy on Vercel
+👉 Page de profil : Les utilisateurs peuvent consulter la liste des pitchs qu’ils ont soumis.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 Sélection de l’éditeur : Les administrateurs peuvent mettre en avant les meilleures idées de startups grâce à la fonctionnalité « Sélection de l’éditeur » gérée par Sanity Studio.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👉 Compteur de vues : Suivi du nombre de vues pour chaque pitch au lieu d’un système de votes positifs.
+
+👉 Recherche : Fonctionnalité de recherche pour charger et consulter efficacement les pitchs.
+
+👉 Design minimaliste : Interface utilisateur simple et épurée, avec uniquement les pages essentielles pour une utilisation simplifiée et une esthétique épurée.
+
+Et bien plus encore, notamment les dernières fonctionnalités de React 19, Next.js 15 et Sanity, ainsi que l'architecture du code et la réutilisabilité.
