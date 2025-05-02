@@ -11,8 +11,8 @@
 
 
 @theme {
-  --color-primary: #FFE8F0;
-  --color-primary-100: #EE2B69;
+  --color-primary: #EE2B69;
+  --color-primary-100: #FFE8F0;
 
   --color-secondary: #FBE843;
 
@@ -39,8 +39,8 @@
 
 @layer base {
   .flex-between {
-      @apply flex justify-between items-center;
-    }
+    @apply flex justify-between items-center;
+  }
 
   .text-30-extrabold {
     @apply text-[30px] font-extrabold text-white;
@@ -134,15 +134,15 @@
 
   /* navbar */
   .avatar {
-    @apply p-0 focus-visible:ring-0 bg-none rounded-full drop-shadow-md ;
+    @apply p-0 focus-visible:ring-0 bg-none rounded-full drop-shadow-md;
   }
 
   .dropdown-menu {
-    @apply w-56 border-[5px] border-black bg-white p-5 rounded-2xl ;
+    @apply w-56 border-[5px] border-black bg-white p-5 rounded-2xl;
   }
 
   .login {
-    @apply border-[5px] py-4 border-black bg-white text-black relative shadow-100 font-work-sans font-medium hover:shadow-none transition-all duration-500 ;
+    @apply border-[5px] py-4 border-black bg-white text-black relative shadow-100 font-work-sans font-medium hover:shadow-none transition-all duration-500;
   }
 
   /* searchform */
@@ -155,7 +155,7 @@
   }
 
   .search-btn {
-    @apply size-[50px] rounded-full bg-black flex justify-center items-center ;
+    @apply size-[50px] rounded-full bg-black flex justify-center items-center;
   }
 
   /* startupcard */
@@ -176,7 +176,7 @@
   }
 
   .startup-card_btn {
-    @apply rounded-full bg-black-200 font-medium text-[16px] text-white px-5 py-3 ;
+    @apply rounded-full bg-black-200 font-medium text-[16px] text-white px-5 py-3;
   }
 
   .startup-card_skeleton {
@@ -193,11 +193,11 @@
   }
 
   .startup-form_input {
-    @apply border-[3px] border-black px-5 py-7 text-[18px] text-black font-semibold rounded-full mt-3 placeholder:text-black-300 ;
+    @apply border-[3px] border-black px-5 py-7 text-[18px] text-black font-semibold rounded-full mt-3 placeholder:text-black-300;
   }
 
   .startup-form_textarea {
-    @apply border-[3px] border-black p-5 text-[18px] text-black font-semibold rounded-[20px] mt-3 placeholder:text-black-300 ;
+    @apply border-[3px] border-black p-5 text-[18px] text-black font-semibold rounded-[20px] mt-3 placeholder:text-black-300;
   }
 
   .startup-form_error {
@@ -205,11 +205,11 @@
   }
 
   .startup-form_editor {
-    @apply mt-3 border-[3px] border-black text-[18px] text-black font-semibold placeholder:text-black-300 ;
+    @apply mt-3 border-[3px] border-black text-[18px] text-black font-semibold placeholder:text-black-300;
   }
 
   .startup-form_btn {
-    @apply bg-primary border-[4px] border-black rounded-full p-5 min-h-[70px] w-full font-bold text-[18px] ;
+    @apply bg-primary border-[4px] border-black rounded-full p-5 min-h-[70px] w-full font-bold text-[18px];
   }
 
   /* view */
@@ -231,10 +231,10 @@
 
 @utility pattern {
   background-image: linear-gradient(to right,
-  transparent 49.5%,
-  rgba(251, 232, 67, 0.2) 49.5%,
-  rgba(251, 232, 67, 0.6) 50.5%,
-  transparent 50.5%);
+      transparent 49.5%,
+      rgba(251, 232, 67, 0.2) 49.5%,
+      rgba(251, 232, 67, 0.6) 50.5%,
+      transparent 50.5%);
   background-size: 5% 100%;
   background-position: center;
   background-repeat: repeat-x;
@@ -242,17 +242,18 @@
 
 @layer utilities {
   .tag {
-      background-color: var(--color-secondary);
-      padding: 0.75rem 1.5rem;
-      font-family: var(--font-work-sans);
-      font-weight: bold;
-      border-radius: 0.25rem;
-      text-transform: uppercase;
-      position: relative;
-    }
+    background-color: var(--color-secondary);
+    padding: 0.75rem 1.5rem;
+    font-family: var(--font-work-sans);
+    font-weight: bold;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    position: relative;
+  }
+
   .tag-tri {
-      position: relative;
-    }
+    position: relative;
+  }
 
   .tag-tri::before {
     content: '';
@@ -274,7 +275,5 @@
 }
 
 .w-md-editor-toolbar {
-  padding: 10px ;
+  padding: 10px;
 }
-
-
