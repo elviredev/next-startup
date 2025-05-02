@@ -1,6 +1,3 @@
-[youtube](https://www.youtube.com/watch?v=Zq5fmkH0T78&t=3723s) <br>
-1:09:22
-
 🤖 Introduction
 
 <hr>
