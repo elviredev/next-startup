@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# files
+process-next-auth-github.png
+structure-bdd.png
+structure-fonctionnement-application.png
+projet-etapes-1.md
+projet-etapes-2.md
+projet-etapes-1.pdf
+projet-etapes-2.pdf
+style-md.css
