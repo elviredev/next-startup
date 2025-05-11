@@ -47,7 +47,12 @@ structure-fonctionnement-application.png
 projet-etapes-1.md
 projet-etapes-2.md
 projet-etapes-3.md
+projet-etapes-4.md
 projet-etapes-1.pdf
 projet-etapes-2.pdf
 projet-etapes-3.pdf
+projet-etapes-4.pdf
 style-md.css
+
+# Sentry Config File
+.env.sentry-build-plugin
